@@ -1,3 +1,11 @@
+require('dotenv').config();//הפעלת פונקציה מתוך ספריית 
+function sandemail(u,p);
+{
+    Console.log("sent email to" + u);
+    //קרא לגוגל והתחבר באמצעות השם והסיסמה
+}
+SANDEMAIL(process.env.USER_EMAIL,process.env.EMAIL_PASS);
+const { Console } = require('console');
 // קישור לספריית פרוטוקול עבודה באינטרנט
 const http=require('http');
 // קישור לאפליקציה שכתבנו בקובץ החיצוני
